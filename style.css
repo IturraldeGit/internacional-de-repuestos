@@ -597,6 +597,9 @@ a { outline: 0 !important; }
 	height: 100%; 
 	width: 100%;
 	top: 0; 
+	border: none;
+	outline: none;
+	
 }
 
 .portfolio-gallery{
@@ -795,7 +798,7 @@ a { outline: 0 !important; }
 	transform-origin: right center;*/
 	height: 803px;
 	position: relative;
-	background-image: url("images/how-we-work/research-bg.jpg");
+	background-image: url("images/how-we-work/research-bg-2.jpg");
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-position: center top;
@@ -2467,8 +2470,9 @@ a { outline: 0 !important; }
 .load-complete {
 	position: fixed;
 	overflow: hidden;
+	background-color: #f8ffdd;
 	background-color: #005a25;
-	width: 100%;
+	max-width: 100%;
 	height: 100%;
 	left: 0;
 	right: 0;
@@ -2537,6 +2541,10 @@ a { outline: 0 !important; }
     -ms-animation: loading 2s 1s infinite;
     -o-animation: loading 2s 1s infinite;
     animation: loading 2s 1s infinite;
+}
+
+.logo {
+	width: 20%;
 }
 @keyframes "loading" {
     from {
