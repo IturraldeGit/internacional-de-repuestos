@@ -1124,7 +1124,7 @@
 		overflow: hidden;
 	}
 	.research-slope {
-		background-image: url("../images/how-we-work/research-bg-2.jpeg");
+		background-image: url("../images/how-we-work/research-bg-2-mobile.jpeg");
 		transform: rotate(0deg);
 		-webkit-transform: rotate(0deg);
 		-moz-transform: rotate(0deg);
@@ -1516,7 +1516,7 @@
 		padding: 70px 0 82px 0;
 	}
 	.research-slope {
-		background-image: url("../images/how-we-work/research-bg-2.jpeg");
+		background-image: url("../images/how-we-work/research-bg-2-mobile.jpeg");
 		position: relative;
 	}
 		
