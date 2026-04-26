@@ -202,7 +202,7 @@
 {
 	text-transform: uppercase;
 	position: absolute;
-	bottom: 50px;
+	bottom: 100px;
 	z-index: 999;
 	display: block;
 	margin: 0 auto;
